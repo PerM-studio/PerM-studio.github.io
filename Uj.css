@@ -1,0 +1,16 @@
+body {
+    background-image: url('perem_studio_borito.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#mlogo {
+    width: 55px;
+    height: 55px;
+}
+#textcube {
+    background-color: aliceblue;
+    text-align:center;
+    width: 500px;
+    margin: 0 auto;
+    border-style: outset;
+}
