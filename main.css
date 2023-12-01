@@ -1,9 +1,6 @@
 body {
-    background-image: url('banner2.png') center center fixed;
+    background-image: url('banner2.png');
     background-repeat: no-repeat;
-    background-size: cover;
-    margin: 0;
-    padding: 0;
     background-size: cover;
 }
 #mlogo {
