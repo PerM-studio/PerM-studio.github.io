@@ -1,37 +1,44 @@
 body {
-    background-image: url('banner2.png');
-    background-repeat: no-repeat;
-    background-size: cover;
+  background-image: url("banner2.png");
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 #mlogo {
-    width: 55px;
-    height: 55px;
+  width: 55px;
+  height: 55px;
 }
-#rolunk{
-    text-align: center;
-    color: rgb(0, 0, 0, 80%);
+#rolunk {
+  text-align: center;
+  color: rgb(0, 0, 0, 80%);
 }
 .rtartalom {
-    text-align: center;
-    font-size: 20px;
-    color: rgb(0, 0, 0, 80%);
+  text-align: center;
+  font-size: 20px;
+  color: rgb(0, 0, 0, 80%);
 }
 #textcube {
-    background-color: hsl(0, 0%, 50%, 80%) ;
-    text-align:center;
-    width: 800px;
-    margin: 0 auto;
-    border-style: outset;
-    border: 6px rgb(0, 0, 0, 80%) outset;
+  background-color: hsl(0, 0%, 50%, 80%);
+  text-align: center;
+  width: 800px;
+  margin: 0 auto;
+  border-style: outset;
+  border: 6px rgb(0, 0, 0, 80%) outset;
 }
 /* aliceblue */
-h3
-{
-    font-style: bold;
-    font-family: Arial, Helvetica, sans-serif;
-    padding-top: 35px;
-    padding-right: 30px;
+h3 {
+  font-style: bold;
+  font-family: Arial, Helvetica, sans-serif;
+  padding-top: 35px;
+  padding-right: 30px;
+}
+
+iframe {
+  max-width: 530px;
+  width: 80% !important;
 }
 /* Mobile screen comp */
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 820px) {
+  #textcube {
+    width: 100%;
+  }
 }
