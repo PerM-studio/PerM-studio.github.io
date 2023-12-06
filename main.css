@@ -38,19 +38,18 @@ iframe {
 }
 /* Mobile screen comp */
 @media only screen and (max-width: 600px) {
-    #textcube{
-        width: 100%;
-        margin: none;
-    }
+  #textcube {
+    width: 100%;
+    margin: none;
   }
+}
 @media only screen and (max-width: 820px) {
   #textcube {
     width: 100%;
   }
 }
-#offcanvas-wrapper.force-hide:not(.hide)
-{
-	display: flex !important;
-	overflow: auto;
-	width: auto !important;
+#offcanvas-wrapper.force-hide:not(.hide) {
+  display: flex !important;
+  overflow: auto;
+  width: auto !important;
 }
