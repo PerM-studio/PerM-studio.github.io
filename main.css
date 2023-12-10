@@ -30,6 +30,9 @@ h3 {
   font-family: Arial, Helvetica, sans-serif;
   padding-top: 35px;
 }
+a {
+  color: rgb(201, 201, 9);
+}
 
 iframe {
   max-width: 530px;
