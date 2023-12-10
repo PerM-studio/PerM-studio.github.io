@@ -34,6 +34,15 @@ a {
   color: rgb(201, 201, 9);
 }
 
+html {
+  color: white ;
+}
+
+@font-face {
+  font-family: Rethink Sans;
+  src: url();
+}
+
 iframe {
   max-width: 530px;
   width: 80% !important;
