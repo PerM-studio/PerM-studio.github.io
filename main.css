@@ -30,8 +30,29 @@ h3 {
   font-family: Arial, Helvetica, sans-serif;
   padding-top: 35px;
 }
-a {
-  color: rgb(201, 201, 9);
+
+a:link {
+  color: rgb(201, 201, 8);
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:visited {
+  color: rgb(61, 61, 23);
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:hover {
+  color: rgb(255, 255, 54);
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+a:active {
+  color: yellow;
+  background-color: transparent;
+  text-decoration: underline;
 }
 
 html {
